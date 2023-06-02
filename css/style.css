@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: black;
+}
+
+#container{
+	background: red;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header >h3{
+	color: #fff;
+	font-family: Pinyon Script, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#tbl{
+	background: #fff;
+	border-top: solid black;
+}
+
+.table{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ caption{
+ 	background: #fff;
+	color: black;
+	font-family:Pinyon Script, sans-serif;
+	font-size: 45px;
+	padding-top: 20px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
+
+.table tr{
+	height: 70px;
+	
+}
+.table th{
+	background: black;
+	color: white;
+
+}
+.table td{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.table tr td:first-child,
+.table tr td:last-child{
+	width: 150px;
+}
+
+.table tr td:nth-child(2){
+	text-transform: uppercase;
+}
+
+.footer > footer{
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: sans-serif;
+	font-size: small;
+}
+
+
+
